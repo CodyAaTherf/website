@@ -1,0 +1,27 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "My Personal Website",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "host": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodyAaTherf/website.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "AaTherf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodyAaTherf/website/issues"
+  },
+  "homepage": "https://github.com/CodyAaTherf/website#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
+}
